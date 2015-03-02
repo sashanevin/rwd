@@ -1,0 +1,32 @@
+/* GLOBAL*/
+body {
+	background: url("../img/ng.png");
+}
+
+/* LAYOUT */
+
+.container {
+background: red;
+margin: 0 auto;
+width: 90%;
+}
+
+article section {
+	width: 46%;
+	float: left;
+	padding: 2%;
+}
+
+
+/* ADAPTIVE CONTENT */
+
+iframe, img {
+	max-width: 100%;
+	width: 100%;
+}
+
+@media (min-width: 960px) {
+	#home {
+		width: 300px;
+	}
+}
