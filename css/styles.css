@@ -25,8 +25,43 @@ iframe, img {
 	width: 100%;
 }
 
+/* Desktop query */
 @media (min-width: 960px) {
 	#home {
 		width: 300px;
 	}
+
+	
+	#youtube-big {
+		display: none;
+	}
+	#youtube-med {
+		display: block;
 }
+	iframe {
+		width: 420px;
+	}
+}
+
+/* Tablet query */
+@media (min-width: 4768px) {
+
+	#youtube-big {
+		display: block;
+	}
+	#youtube-med {
+		display: none;
+
+
+	}
+
+	/* MOBILE query */
+@media (min-width: 480px) {
+	article section {
+		float: none;
+		width: 100%;
+	}
+
+	}
+}
+
